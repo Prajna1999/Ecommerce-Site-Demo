@@ -124,13 +124,35 @@ nav{
     /* height: 50px; */
     cursor: pointer;
 }
-.hero-image{
-    padding: 20px 0;
-    margin: 0 auto;
-    /* background-color: #1ea7fd; */
+/* class for border radius-6px */
+.br10{
+    border-radius: 10px;
 }
-.hero-image img{
+.home-page-div{
+    padding: 20px 0;
+    margin: 20px;
+    width: 560px;
+    height: 560px;
+    background: #cbd5e1;
+    position: relative;
+    left: 130px;
+
+}
+/* .home-page-div img{
     position: relative;
     left: 5%;
+} */
+.info-image{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
     
+    width: 560px;
+   
+    
+}
+.info-image div{
+    margin-right: 10px;
+    background: #cbd5e1;
+    width: 180px;
+    height: 180px;
 }
