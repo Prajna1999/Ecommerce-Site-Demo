@@ -138,10 +138,7 @@ nav{
     left: 130px;
 
 }
-/* .home-page-div img{
-    position: relative;
-    left: 5%;
-} */
+
 .info-image{
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
