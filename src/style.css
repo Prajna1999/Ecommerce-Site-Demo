@@ -23,7 +23,7 @@
 }
 body{
         font-family: "Nunito Sans",sans-serif;
-        width:100%;
+        width:100vw;
         min-height: 100vh;
         height: max-content;
         font-family: "Nunito Sans", sans-serif;
@@ -31,13 +31,13 @@ body{
     
 }
 .container{
-    width: 100%;
+    width: 100vw;
     border-bottom: 0.5px solid #64748b;
     /* box-shadow:0 2px 1px 2px black; */
 }
 
 .nav-bar{
-    width: 85%;
+    width: 100%;
     height: max-content;
     padding: 10px 0px;
    /* background-color: #eaf5f3; */
@@ -74,7 +74,7 @@ nav{
 }
 
 .btn{
-    padding: 5px 5px;
+    padding: 10px 5px;
     margin-right: 10px;
     width: 100px; 
     font-size: 14px;
@@ -133,7 +133,7 @@ nav{
     margin: 20px;
     width: 560px;
     height: 560px;
-    background: #cbd5e1;
+    /* background: #cbd5e1; */
     position: relative;
     left: 130px;
 
@@ -142,14 +142,34 @@ nav{
 .info-image{
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
-    
+   position: relative;
+   left: 130px;
+   margin: 20px;
     width: 560px;
    
     
 }
 .info-image div{
     margin-right: 10px;
-    background: #cbd5e1;
+    /* background: #cbd5e1; */
     width: 180px;
     height: 180px;
+}
+.small-image{
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+}
+.main-content{
+    display: flex;
+}
+.right-content{
+    background-color: #fff;
+}
+.right-content p{
+   padding-top: 30px;
+}
+.pos80{
+    position: relative;
+    top: 70px;
 }
